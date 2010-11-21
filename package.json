@@ -1,0 +1,9 @@
+{
+  "name":"geoip",
+  "version":"0.0.1",
+  "main":"./lib/geoip",
+  "directories":{
+    "lib":"./lib",
+    "example":"./examples"
+  }
+}
