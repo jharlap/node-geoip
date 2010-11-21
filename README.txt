@@ -17,3 +17,12 @@ match your placement of the database)
 .. _libGeoIP: http://www.maxmind.com/app/c
 .. _GeiLiteCity.dat:
   http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
+
+Ubuntu instructions:
+
+sudo apt-get install libgeoip1 libgeoip-dev
+wget http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz | gunzip > GeoLiteCity.dat
+npm install https://github.com/jharlap/node-geoip/tarball/master
+Remember to update the GeoLiteCity.dat regularly - MaxMind publishes a new one monthly.
+
+
